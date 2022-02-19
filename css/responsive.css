@@ -1,0 +1,57 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	.header_top {
+		text-align: center;
+	}
+	.mainmenu ul li a {
+		margin-left: 19px;
+	}
+	.header_area {
+		padding-top: 20px;
+	}
+	
+	.header_bottom h2 {
+	  font-size: 30px;
+	}
+	.section_title h2 {
+	  font-size: 30px;
+	  padding-bottom: 5px;
+	}
+	.testimonal_post {
+	  text-align: center;
+	  margin-bottom: 44px;
+	}
+	.testimoial_content.cont1 {
+	}
+	.testimoial_content.cont2 {
+	  margin-top: 0;
+	}
+	.email {
+	  margin-top: 31px;
+	}
+	.btnss button {
+	  padding: 10px 15px;
+	  font-size: 18px;
+	}
+	.footer_area a {
+	font-size: 16px;
+	margin: 0 10px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+	.mainmenu ul li a {
+		margin-left: 40px;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {}

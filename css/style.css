@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+a{
+    text-decoration: none;
+    /*color: #fff;*/
+}
+.pdt{padding-top: 120px;}
+.pdb{padding-bottom: 130px;}
+/* Hedaer area start */
+.header_area{
+    background: #87509c;
+    padding-top: 65px;
+    padding-bottom: 145px;
+}
+.header_area, .header_area a{
+    color: #fff;
+}
+
+.header_top {}
+  .mainmenu ul {
+    list-style: none;
+  }
+  .mainmenu ul li {
+    display: inline-block;
+  }
+  .mainmenu ul li a {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 12px;
+  }
+  .header_top{
+      margin-bottom: 150px;
+  }
+  .header_bottom{text-align: center;}
+  
+.header_bottom h2 {
+    width: 80%;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+  .header_bottom a {
+    background: #eb7d4b;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 60px;
+    border-radius: 5px;
+  }
+/* Hedaer area stop */
+/* Services area Start */
+.services_area{
+    background: #17c2a4;
+    color: #fff;
+    text-align: center;
+}
+.section_title h2 {
+	font-size: 40px;
+	font-weight: 600;
+  position: relative;
+}
+.section_title p {
+    width: 48%;
+    margin: 0 auto;
+    padding-top: 12px;
+  }
+  .section_title h2::after {
+    content: "";
+    position: absolute;
+    background: #14a58c;
+    height: 4px;
+    width: 100px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    border-radius: 5px;
+  }
+  .section_box{margin-top: 80px;}
+  .box1 h4{font-size: 24px;margin-top: 45px;}
+  .box1 p {
+	width: 80%;
+	margin: 0 auto;
+}
+.box1 img {
+	height: 130px;
+	width: 95px;
+}
+/* Services area stop */
+/* Team area Start */
+.team_area{background: #e7f1f8;}
+.section_title.teams {
+	text-align: center;
+}
+.section_title.teams h2::after {
+	background: #c8d9e5;
+}
+.section_title.teams p {
+	color: #3c4761;
+}
+.section_title.teams h2 {
+	color: #3c4761;
+}
+
+.box1.mybox img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.box1.mybox h4 {
+  font-size: 26px;
+  color: #27283d;
+}
+.box1.mybox span {
+  color: #30bae7;
+  margin: 4px 0;
+  display: inline-block;
+}
+.box1.mybox p {
+  color: #3c4761;
+}
+/* Team area stop */
+/* Skills area Start */
+.box1.skills img {
+  height: 120px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+.box1.skills h2 {
+  color: #3c4761;
+}
+/* Skills area stop */
+/* Porfolio area Start */
+.portfolio_area{background-color: #ffdd99;}
+.section_title.teams.portfolio h2, .section_title.teams.portfolio p {
+  color: #393939;
+}
+.section_title.teams.portfolio h2::after {
+  background: #e5c37f;
+}
+
+.isotope_btn button {
+  border: none;
+  padding: 6px 20px;
+  display: inline-block;
+  margin-top: 45px;
+  background: #ebc985;
+  border-radius: 5px;
+  color: #393939;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.isotope_btn {
+  text-align: center;
+}
+.isotope_btn .active {
+	background: #fff;
+}
+.isotop_box1 {
+  margin-top: 65px;
+  text-align: center;
+}
+.isotop_box1 p {
+  font-size: 18px;
+  color: #393939;
+  margin-top: 6px;
+}
+.isotop_box1 img {
+	width: 90%;
+}
+/* Porfolio area stop */
+/* About area Start */
+.about_area {
+	background: #d74680;
+}
+.testimonial_img img {
+  width: 100px;
+  border-radius: 50%;
+}
+.testimonial_contentt {
+  color: #fff;
+}
+.testimonial_contentt p {
+  font-size: 21px;
+  line-height: 25px;
+  font-style: italic;
+}
+.testimonial_contentt h3 {
+  font-size: 24px;
+  margin-top: 5px;
+}
+.testimonial_contentt span {
+  font-size: 18px;
+  color: #ffdd99;
+}
+.testimoial_content.cont1 {
+  margin-top: 70px;
+}
+.testimoial_content.cont2 {
+  margin-top: 145px;
+}
+.section_title.about h2, .section_title.about p {
+  color: #fff;
+}
+.section_title.teams.about h2::after {
+  background: #b73c6d;
+}
+/* About area stop */
+/* Contact area Start */
+.contact_area{background: #3c5499;}
+.section_title.teams.about h2::after {
+	background: #273a71;
+}
+.contact_form {
+  margin-top: 80px;
+}
+input[type="text"], input[type="email"] {
+	width: 100%;
+	padding: 14px 8px;
+}
+input, textarea {
+	background: #273a71;
+	border: navajowhite;
+	color: #fff;
+	font-weight: bold;
+}
+.form_bottom textarea {
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.btnss{
+  text-align: center;
+  margin-top: 50px;
+}
+.btnss button {
+	color: #fff;
+	background: #30bae7;
+	border: none;
+	border-radius: 5px;
+	padding: 18px 100px;
+	font-size: 20px;
+}
+/* Contact area stop */
+/* Footer area Start */
+.footer_area {
+  background: #344b8e;
+  padding: 30px 0;
+  text-align: center;
+}
+.footer_area a {
+  color: #fff;
+  margin: 0 50px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.actives {
+	color: #30bae7 !important;
+}
+/* Footer area stop */
+
+
+/* Responsive */
+/* .responsive {
+  width: 100%!important;
+  height: auto!important;
+} */
